@@ -1,0 +1,79 @@
+{
+  "models": {
+    "logistic_regression": {
+      "accuracy": 0.7930293259634577,
+      "precision": 0.4695296523517382,
+      "recall": 0.7321428571428571,
+      "f1": 0.5721405432344879,
+      "report": {
+        "0": {
+          "precision": 0.8967551622418879,
+          "recall": 0.7377148634984834,
+          "f1-score": 0.8094973926550538,
+          "support": 4945.0
+        },
+        "1": {
+          "precision": 0.4695296523517382,
+          "recall": 0.7321428571428571,
+          "f1-score": 0.5721405432344879,
+          "support": 1568.0
+        },
+        "accuracy": 0.7363734070320896,
+        "macro avg": {
+          "precision": 0.6831424072968131,
+          "recall": 0.7349288603206703,
+          "f1-score": 0.6908189679447709,
+          "support": 6513.0
+        },
+        "weighted avg": {
+          "precision": 0.7939009323159314,
+          "recall": 0.7363734070320896,
+          "f1-score": 0.7523539042639211,
+          "support": 6513.0
+        }
+      }
+    },
+    "decision_tree": {
+      "accuracy": 0.683402425917396,
+      "precision": 0.44684767602393005,
+      "recall": 0.6192602040816326,
+      "f1": 0.5191125367548783,
+      "report": {
+        "0": {
+          "precision": 0.8624423963133641,
+          "recall": 0.7569261880687563,
+          "f1-score": 0.806246634356489,
+          "support": 4945.0
+        },
+        "1": {
+          "precision": 0.44684767602393005,
+          "recall": 0.6192602040816326,
+          "f1-score": 0.5191125367548783,
+          "support": 1568.0
+        },
+        "accuracy": 0.723783202825119,
+        "macro avg": {
+          "precision": 0.6546450361686471,
+          "recall": 0.6880931960751945,
+          "f1-score": 0.6626795855556837,
+          "support": 6513.0
+        },
+        "weighted avg": {
+          "precision": 0.7623882705013216,
+          "recall": 0.723783202825119,
+          "f1-score": 0.737119309768845,
+          "support": 6513.0
+        }
+      }
+    },
+    "logistic_regression_undersampled": {
+      "accuracy": 0.7394441885459849
+    },
+    "decision_tree_undersampled": {
+      "accuracy": 0.7171810225702441
+    },
+    "decision_tree_gridsearch": {
+      "accuracy": 0.7799785045294028
+    }
+  }
+}
